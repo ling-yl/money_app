@@ -1,0 +1,13 @@
+1. https://developer.android.com/studio android studio
+2. 安裝虛擬手機
+3. 放照片
+3. firebase minSdkVersion 16
+
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+    implementation 'com.google.firebase:firebase-auth:19.1.0'
+    implementation 'com.google.firebase:firebase-storage:19.1.0'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+    ram 虛擬手機
+    啟用firebase
+4. 1. first choose 2. register 3. main 4. login 5.user
+

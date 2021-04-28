@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.7"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.NoTitleBar"
+    tools:context=".first_choose">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/image"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/choose_user"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_margin="45dp"
+            android:alpha="0.9"
+            android:background="@drawable/bg_round"
+            android:gravity="center"
+            android:text="使  用  者"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/choose_shop"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:alpha="0.9"
+            android:background="@drawable/bg_round"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="廠   商"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
